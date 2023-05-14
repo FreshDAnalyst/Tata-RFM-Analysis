@@ -81,9 +81,30 @@ MONEARY VALUE: How much a customer spends on purchases
 RFM analysis involves analyzing these three customer behaviors and segmenting customers into different groups based on their scores for each behavior.
 
 **Creation of RFM Measures**
-I first created some calculated measures with DAX for the Last Transaction date, Recency, Frequency and Monetary Value measures…      _image below_
+I first created some calculated measures with DAX for the Last Transaction date, Recency, Frequency and Monetary Value measures. 
+**Recency** refers to the time elapsed since a customer's last transaction.Customers who have recently made a purchase are considered more valuable than those who haven't made a purchase in a while.
+**Frequency** refers to the number of purchases a customer has made. Customers who make frequent purchases are considered more valuable than those who make infrequent purchases.
+**Monetary value** refers to the amount of money a customer has spent on purchases. Customers who have spent more money are considered more valuable than those who have spent less money            _image below_
 
 **RECENCY**
+
+![](https://github.com/FreshDAnalyst/Tata-RFM-Analysis/blob/main/Recency%20DAX.PNG)
+
+**FREQUENCY**
+
+![](https://github.com/FreshDAnalyst/Tata-RFM-Analysis/blob/main/Frequency%20DAX.PNG)
+
+**Monetary Value**
+
+![](https://github.com/FreshDAnalyst/Tata-RFM-Analysis/blob/main/Monetary%20DAX.PNG)
+
+**Creation of RFM table**
+
+•	Then I created the RFM table using DAX formula which consist of columns that shows the Recency, Frequency and Monetary value of each customers  _image below_
+
+![](https://github.com/FreshDAnalyst/Tata-RFM-Analysis/blob/main/RFM%20table%20DAX%20formula.PNG)
+
+and then another DAX formula was used to create scores into four(4) percentiles (5,4,3,2or1) respectively, (5 which indicate as highest score and 1 or 2 indicates as lowest score).  DAX formular  _image below…_
 
 ![]()
 
