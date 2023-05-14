@@ -104,7 +104,17 @@ I first created some calculated measures with DAX for the Last Transaction date,
 
 ![](https://github.com/FreshDAnalyst/Tata-RFM-Analysis/blob/main/RFM%20table%20DAX%20formula.PNG)
 
-and then another DAX formula was used to create scores into four(4) percentiles (5,4,3,2or1) respectively, (5 which indicate as highest score and 1 or 2 indicates as lowest score).  DAX formular  _image below…_
+and then another DAX formula was used to create Recency, Frequency and Monetary scores into four(4) percentiles (5,4,3,2or1) respectively, (5 which indicate as highest score and 1 or 2 indicates as lowest score).  DAX formular  _image below…_
+
+**Recency Score DAX**
+
+![](https://github.com/FreshDAnalyst/Tata-RFM-Analysis/blob/main/Recency%20score%20DAX.PNG)
+
+**Frequency Score DAX**
+
+![](https://github.com/FreshDAnalyst/Tata-RFM-Analysis/blob/main/Frequency%20score%20DAX.PNG)
+
+**Monetary Value Score DAX**
 
 ![]()
 
