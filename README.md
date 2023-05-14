@@ -116,7 +116,61 @@ and then another DAX formula was used to create Recency, Frequency and Monetary 
 
 **Monetary Value Score DAX**
 
-![]()
+![](https://github.com/FreshDAnalyst/Tata-RFM-Analysis/blob/main/Monetary%20score%20DAX.PNG)
+
+•	Then I concatenated (join) the Recency, Frequency & Monetary value together in a single column to form the final RFM score or Customer Segmentation score.     _RFM table below…_
+
+![](https://github.com/FreshDAnalyst/Tata-RFM-Analysis/blob/main/RFM%20concatenate%20DAX.PNG)
+![](https://github.com/FreshDAnalyst/Tata-RFM-Analysis/blob/main/RFM%20table.PNG)
+
+**Importing the Segmentation Scores table**
+
+Segmentation score table is a table that consist of the customer’s segmentation name for each RFM score.
+I imported the table which consisted of 11 different categories of customers based on their RFM scores. Examples are : 
+•	About to sleep : are customers that are not really patronizing and have not ordered in a while. They need to be reactivated
+•	At risk: they spend a lot but have not ordered in a while. We could loose them
+•	Cannot loose them: they are always purchasing 
+•	Champions: they buy a lot and spend a lot 
+•	Hibernating customers: they last purchase was a long time ago. Low spenders and low  number of orders
+•	Lost customers: we already lost them
+•	Loyal: Good amount of spending, often orders and always responsive to promotions
+•	Potential loyalist: they are not yet loyal but they have the potential to be
+•	Need attention: above the RFM average value but they have not ordered in a while. So they need to be brought back  
+•	New customers: they are very new low purchase, low money but recent orders
+•	Promising: they start coming recently but hasn’t spent a lot
+    _Image below…_
+    
+![](https://github.com/FreshDAnalyst/Tata-RFM-Analysis/blob/main/Segment%20score%20table.PNG)
+
+**Data Model**
+
+I then connected the RFM table to the segmentation score table in a many-to-many relationship     _…image below_
+
+![](https://github.com/FreshDAnalyst/Tata-RFM-Analysis/blob/main/RFM%20model.PNG)
+
+## RFM Insights and Analysis
+
+![](https://github.com/FreshDAnalyst/Tata-RFM-Analysis/blob/main/RFM%20analysis.PNG)
+
+•	The insight of the customer segmentation shows that 18.71% of the overall customers are new customers. Meaning we are gaining new customers but we should now work harder to make them loyal
+•	Then 18.74% of the overall customers are at risk customers. We could loose them, they do spend a lot but have not ordered in a while. We need create promotion to gain back their interest
+•	Just 9.54% are loyal customers and 11.39% are potential loyalist. It’s a good improvement. We should try to convert the potential loyalist to loyalist. Making it 20% loyal customers
+•	13% of the customers cannot be loose. We should keep satisfying them
+•	Just 6.38% of the customers are champions. With high spending and frequent purchase. We need to increase this figures by creating better discount and promotion to the loyal and potential loyalist customers 
+•	Just 0.48% of the customers are lost customers. This is a good sign. 
+
+There is still a lot more insight to get with the RFM customer segmentation
+
+## Power BI Dashboard
+
+![](https://github.com/FreshDAnalyst/Tata-RFM-Analysis/blob/main/dashboard.PNG)
+
+
+To interact with the dashboard in the Power Bi service through this link: https://app.powerbi.com/groups/me/reports/fe132e0d-11c1-4228-8137-69dad62dcaf7/ReportSectiond0556e09b5bcd219adb4
+
+I give reference to this youtube link: https://youtu.be/uv_GnoA_IPs
+
+
 
 
 
