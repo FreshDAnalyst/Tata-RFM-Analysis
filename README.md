@@ -127,16 +127,26 @@ and then another DAX formula was used to create Recency, Frequency and Monetary 
 
 Segmentation score table is a table that consist of the customer’s segmentation name for each RFM score.
 I imported the table which consisted of 11 different categories of customers based on their RFM scores. Examples are : 
+
 •	About to sleep : are customers that are not really patronizing and have not ordered in a while. They need to be reactivated
+
 •	At risk: they spend a lot but have not ordered in a while. We could loose them
 •	Cannot loose them: they are always purchasing 
+
 •	Champions: they buy a lot and spend a lot 
+
 •	Hibernating customers: they last purchase was a long time ago. Low spenders and low  number of orders
+
 •	Lost customers: we already lost them
+
 •	Loyal: Good amount of spending, often orders and always responsive to promotions
+
 •	Potential loyalist: they are not yet loyal but they have the potential to be
-•	Need attention: above the RFM average value but they have not ordered in a while. So they need to be brought back  
+
+•	Need attention: above the RFM average value but they have not ordered in a while. So they need to be brought back
+
 •	New customers: they are very new low purchase, low money but recent orders
+
 •	Promising: they start coming recently but hasn’t spent a lot
     _Image below…_
     
