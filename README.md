@@ -131,6 +131,7 @@ I imported the table which consisted of 11 different categories of customers bas
 •	About to sleep : are customers that are not really patronizing and have not ordered in a while. They need to be reactivated
 
 •	At risk: they spend a lot but have not ordered in a while. We could loose them
+
 •	Cannot loose them: they are always purchasing 
 
 •	Champions: they buy a lot and spend a lot 
